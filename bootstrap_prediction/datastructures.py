@@ -2,6 +2,7 @@ import logging, copy
 import numpy as np
 from sklearn import preprocessing
 from sklearn.ensemble import RandomForestRegressor
+from functools import reduce
 
 class FeatureBank():
     ''' A simple class to store feature array with metadata
